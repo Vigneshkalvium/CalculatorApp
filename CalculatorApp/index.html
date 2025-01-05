@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="display">0</div>
+        <div class="keys">
+            <button class="button_button1" onclick="appendvalue('(')">(</button>
+            <button class="button_button2" onclick="appendvalue(')')">)</button>
+            <button class="button_button3" onclick="earseElement()">CE</button>
+            <button class="button_button4" onclick="appendvalue('/')">/</button>
+            <button class="button_button5" onclick="appendvalue('9')">9</button>
+            <button class="button_button6" onclick="appendvalue('8')">8</button>
+            <button class="button_button7" onclick="appendvalue('7')">7</button>
+            <button class="button_button8" onclick="appendvalue('*')">*</button>
+            <button class="button_button9" onclick="appendvalue('6')">6</button>
+            <button class="button_button10" onclick="appendvalue('5')">5</button>
+            <button class="button_button11" onclick="appendvalue('4')">4</button>
+            <button class="button_button12" onclick="appendvalue('-')">-</button>
+            <button class="button_button13" onclick="appendvalue('3')">3</button>
+            <button class="button_button14" onclick="appendvalue('2')">2</button>
+            <button class="button_button15" onclick="appendvalue('1')">1</button>
+            <button class="button_button16" onclick="appendvalue('+')">+</button>
+            <button class="button_button17" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
